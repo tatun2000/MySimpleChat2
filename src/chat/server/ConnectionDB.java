@@ -1,4 +1,4 @@
-package chat.db;
+package chat.server;
 
 import java.sql.*;
 
@@ -24,9 +24,5 @@ public class ConnectionDB {
         }catch (SQLException exc){
             exc.printStackTrace();
         }
-    }
-
-    public static void main(String[] args) {
-
     }
 }
